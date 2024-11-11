@@ -1,0 +1,193 @@
+﻿@model ResearchManagementSystem.Models.AddAccomplishment
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link href="~/css/ClusterCoordinator-Accomplishmentdetails.css" rel="stylesheet" />
+<style>
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .sticky-action-column {
+        position: sticky;
+        right: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    @@media (max-width: 576px) {
+        .sticky-action-column {
+            position: static;
+            border-left: none;
+        }
+    }
+</style>
+<div>
+    <!--navbar-->
+    <div class="nnvb container mt-3 mb-3">
+        <div class="row">
+            <div class="itm-active col-lg-2 col-sm-12 me-2 p-1 mb-1 text-center">
+                <a class="text-decoration-none" asp-action="Index" id="aactive">Accomplishment List</a>
+            </div>
+            <div class="itm col-lg-2 col-sm-12 me-2 p-1 mb-1 text-center">
+                <a class="text-decoration-none" asp-action="Create" id="inaactive">Add Accomplishment</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container shadow mb-3" id="content">
+        <div class="row shadow-sm h3 p-4 mb-1" id="title">
+            <div class="d-flex justify-content-between">
+                <div>Production Details</div>
+                <div>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.ProductionId" role="button">Edit</a>
+
+                </div>
+            </div>
+        </div>
+        <dl class="row shadow p-4" id="formcont">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ResearchTitle)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ResearchTitle)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.LeadResearcher)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.LeadResearcher.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.CoLeadResearcher)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CoLeadResearcher.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Memberone)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Memberone.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Membertwo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Membertwo.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Memberthree)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Memberthree.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.College)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.College)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Department)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Department)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.FundingAgency)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FundingAgency)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.FundingAmount)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FundingAmount)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DateStarted)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DateStarted)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DateCompleted)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DateCompleted)
+            </dd>
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.RequiredFile1Name)
+            </dt>
+            <dd class="col-sm-10">
+
+                @if (Model.RequiredFile1Data != null)
+                {
+                    <a asp-action="DownloadFile" asp-route-id="@Model?.ProductionId" asp-route-fileType="RequiredFile1" role="button" class="btn btn-danger btn-sm me-2">
+                        Download Required File 1
+                    </a>
+                }
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.RequiredFile2Name)
+            </dt>
+            <dd class="col-sm-10">
+                @if (Model.RequiredFile2Data != null)
+                {
+
+                    <a asp-action="DownloadFile" asp-route-id="@Model?.ProductionId" asp-route-fileType="RequiredFile2" role="button" class="btn btn-danger btn-sm me-2">
+                        Download Required File 2
+                    </a>
+
+                }
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ConditionalFileName)
+            </dt>
+            <dd class="col-sm-10">
+                @if (Model.ConditionalFileData != null)
+                {
+
+                    <a asp-action="DownloadFile" asp-route-id="@Model?.ProductionId" asp-route-fileType="ConditionalFile" role="button" class="btn btn-danger btn-sm me-2">
+                        Download Conditional File
+                    </a>
+
+                }
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.IsStudentInvolved)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.IsStudentInvolved)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Notes)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Notes)
+            </dd>
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.CreatedOn)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CreatedOn)
+            </dd>
+        </dl>
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+

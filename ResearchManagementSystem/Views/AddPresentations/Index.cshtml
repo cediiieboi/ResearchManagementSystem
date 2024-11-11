@@ -1,0 +1,112 @@
+﻿@model IEnumerable<ResearchManagementSystem.Models.AddPresentation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ProductionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConferenceId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrganizerOne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrganizerTwo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PresenterOne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PresenterTwo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PresenterThree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PresenterFour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PresenterFive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateofPresentation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Level)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Venue)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CertificateofParticipationFileName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddAccomplishment.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ConferenceId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrganizerOne)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrganizerTwo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PresenterOne)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PresenterTwo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PresenterThree)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PresenterFour)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PresenterFive)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateofPresentation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Level)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Venue)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.CertificateofParticipationFileName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ConferenceId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ConferenceId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ConferenceId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

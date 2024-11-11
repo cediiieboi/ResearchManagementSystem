@@ -1,0 +1,120 @@
+﻿@model ResearchManagementSystem.Models.AddCitation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>AddCitation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AddAccomplishment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AddAccomplishment.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ArticleTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ArticleTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LeadResearcher)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LeadResearcher.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CoLeadResearcher)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CoLeadResearcher.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Memberone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Memberone.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Membertwo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Membertwo.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Memberthree)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Memberthree.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OriginalArticlePublished)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OriginalArticlePublished)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewPublicationTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NewPublicationTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuthorsofNewArticle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuthorsofNewArticle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewArticlePublished)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NewArticlePublished)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.VolNoIssueNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.VolNoIssueNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pages)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pages)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.YearofPublication)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.YearofPublication)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Indexing)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Indexing)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CitationProofData)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CitationProofData)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CitationProofFileName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CitationProofFileName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CitationId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

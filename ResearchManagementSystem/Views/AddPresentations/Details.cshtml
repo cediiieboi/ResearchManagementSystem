@@ -1,0 +1,107 @@
+﻿@model ResearchManagementSystem.Models.AddPresentation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>AddPresentation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProductionId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AddAccomplishment.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OrganizerOne)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OrganizerOne)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OrganizerTwo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OrganizerTwo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PresenterOne)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PresenterOne)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PresenterTwo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PresenterTwo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PresenterThree)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PresenterThree)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PresenterFour)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PresenterFour)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PresenterFive)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PresenterFive)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateofPresentation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateofPresentation)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Level)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Level)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Venue)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Venue)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CertificateofParticipationFileData)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CertificateofParticipationFileData)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CertificateofParticipationFileName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CertificateofParticipationFileName)
+        </dd>
+    </dl>
+</div>
+
+<ul>
+    @if (Model.CertificateofParticipationFileData != null)
+    {
+        <li>
+            <a asp-action="DownloadFile" asp-route-id="@Model?.ConferenceId" asp-route-fileType="CertificateofParticipationFileData">
+                Download Certificate of Participation
+            </a>
+        </li>
+    }
+</ul>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ConferenceId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

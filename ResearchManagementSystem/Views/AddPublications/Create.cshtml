@@ -1,0 +1,98 @@
+﻿@model ResearchManagementSystem.Models.AddPublication
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>AddPublication</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div class="form-group">
+                <label asp-for="publicationId" class="control-label"></label>
+                <input asp-for="publicationId" class="form-control" />
+                <span asp-validation-for="publicationId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductionId" class="control-label"></label>
+                <select asp-for="ProductionId" class="form-control" asp-items="ViewBag.ProductionId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArticleTitle" class="control-label"></label>
+                <input asp-for="ArticleTitle" class="form-control" />
+                <span asp-validation-for="ArticleTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PublicationDate" class="control-label"></label>
+                <input asp-for="PublicationDate" class="form-control" />
+                <span asp-validation-for="PublicationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JournalPubTitle" class="control-label"></label>
+                <input asp-for="JournalPubTitle" class="form-control" />
+                <span asp-validation-for="JournalPubTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DocumentType" class="control-label"></label>
+                <input asp-for="DocumentType" class="form-control" />
+                <span asp-validation-for="DocumentType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VolnoIssueNo" class="control-label"></label>
+                <input asp-for="VolnoIssueNo" class="form-control" />
+                <span asp-validation-for="VolnoIssueNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IssnIsbnEssn" class="control-label"></label>
+                <input asp-for="IssnIsbnEssn" class="form-control" />
+                <span asp-validation-for="IssnIsbnEssn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DOI" class="control-label"></label>
+                <input asp-for="DOI" class="form-control" />
+                <span asp-validation-for="DOI" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IndexJournal" class="control-label"></label>
+                <input asp-for="IndexJournal" class="form-control" />
+                <span asp-validation-for="IndexJournal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SuppDocs" class="control-label"></label>
+                <input asp-for="SuppDocs" class="form-control" />
+                <span asp-validation-for="SuppDocs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Link" class="control-label"></label>
+                <input asp-for="Link" class="form-control" />
+                <span asp-validation-for="Link" class="text-danger"></span>
+            </div>
+
+
+
+
+            <!-- Required Files -->
+            <div class="form-group">
+                @Html.Label("Manuscript Journal")
+                <input type="file" name="file" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

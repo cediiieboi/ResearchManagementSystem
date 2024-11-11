@@ -1,0 +1,112 @@
+﻿@model ResearchManagementSystem.Models.AddCitation
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>AddCitation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CitationId" />
+            <div class="form-group">
+                <label asp-for="ProductionId" class="control-label"></label>
+                <select asp-for="ProductionId" class="form-control" asp-items="ViewBag.ProductionId"></select>
+                <span asp-validation-for="ProductionId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArticleTitle" class="control-label"></label>
+                <input asp-for="ArticleTitle" class="form-control" />
+                <span asp-validation-for="ArticleTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LeadResearcherId" class="control-label"></label>
+                <select asp-for="LeadResearcherId" class="form-control" asp-items="ViewBag.LeadResearcherId"></select>
+                <span asp-validation-for="LeadResearcherId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CoLeadResearcherId" class="control-label"></label>
+                <select asp-for="CoLeadResearcherId" class="form-control" asp-items="ViewBag.CoLeadResearcherId"></select>
+                <span asp-validation-for="CoLeadResearcherId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MemberoneId" class="control-label"></label>
+                <select asp-for="MemberoneId" class="form-control" asp-items="ViewBag.MemberoneId"></select>
+                <span asp-validation-for="MemberoneId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MembertwoId" class="control-label"></label>
+                <select asp-for="MembertwoId" class="form-control" asp-items="ViewBag.MembertwoId"></select>
+                <span asp-validation-for="MembertwoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MemberthreeId" class="control-label"></label>
+                <select asp-for="MemberthreeId" class="form-control" asp-items="ViewBag.MemberthreeId"></select>
+                <span asp-validation-for="MemberthreeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OriginalArticlePublished" class="control-label"></label>
+                <input asp-for="OriginalArticlePublished" class="form-control" />
+                <span asp-validation-for="OriginalArticlePublished" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NewPublicationTitle" class="control-label"></label>
+                <input asp-for="NewPublicationTitle" class="form-control" />
+                <span asp-validation-for="NewPublicationTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuthorsofNewArticle" class="control-label"></label>
+                <input asp-for="AuthorsofNewArticle" class="form-control" />
+                <span asp-validation-for="AuthorsofNewArticle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NewArticlePublished" class="control-label"></label>
+                <input asp-for="NewArticlePublished" class="form-control" />
+                <span asp-validation-for="NewArticlePublished" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VolNoIssueNo" class="control-label"></label>
+                <input asp-for="VolNoIssueNo" class="form-control" />
+                <span asp-validation-for="VolNoIssueNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pages" class="control-label"></label>
+                <input asp-for="Pages" class="form-control" />
+                <span asp-validation-for="Pages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YearofPublication" class="control-label"></label>
+                <input asp-for="YearofPublication" class="form-control" />
+                <span asp-validation-for="YearofPublication" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Indexing" class="control-label"></label>
+                <input asp-for="Indexing" class="form-control" />
+                <span asp-validation-for="Indexing" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CitationProofFileName" class="control-label"></label>
+                <input asp-for="CitationProofFileName" class="form-control" />
+                <span asp-validation-for="CitationProofFileName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,104 @@
+﻿@model IEnumerable<ResearchManagementSystem.Models.AddPublication>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArticleTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JournalPubTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DocumentType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VolnoIssueNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IssnIsbnEssn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DOI)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IndexJournal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SuppDocs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Link)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ManuscriptJournalFileName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddAccomplishment.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArticleTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublicationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JournalPubTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DocumentType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VolnoIssueNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IssnIsbnEssn)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DOI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IndexJournal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SuppDocs)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Link)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ManuscriptJournalFileName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.publicationId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.publicationId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.publicationId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

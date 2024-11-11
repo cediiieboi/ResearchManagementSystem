@@ -1,0 +1,809 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ResearchManagementSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ResearchManagementSystem.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\CERTIFICATE OF VALIDITY.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\CERTIFICATE OF VALIDITY.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\CO-AUTHORSHIP-AGREEMENT.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\CO-AUTHORSHIP-AGREEMENT.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-10-Research-Study Protocol.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-10-Research-Study Protocol.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-10.1-NON-HUMAN-DETERMINANT-TEMPLATE.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-10.1-NON-HUMAN-DETERMINANT-TEMPLATE.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-11-Informed Consent Form.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-11-Informed Consent Form.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-12-Assent Form for Minors-Participants.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-12-Assent Form for Minors-Participants.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-15-Application for Ethics Review of Amendments.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-15-Application for Ethics Review of Amendments.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-16-Application for Cancellation of Ethics Review.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-16-Application for Cancellation of Ethics Review.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-18-Terminal-Report-Template.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-18-Terminal-Report-Template.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\FORM-9-Application for Ethics Review of New Protocol.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\FORM-9-Application for Ethics Review of New Protocol.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\LETTER OF INTENT.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\LETTER OF INTENT.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\FormFiles\\RESEARCHER CURRICULUM VITAE.docx",
+      "PackagePath": "staticwebassets\\FormFiles\\RESEARCHER CURRICULUM VITAE.docx"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\AssignEval.css",
+      "PackagePath": "staticwebassets\\css\\AssignEval.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-About.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-About.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Accomplishmentadd.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Accomplishmentadd.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Accomplishmentdetails.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Accomplishmentdetails.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Centers.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Centers.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Faculty-AddFaculty.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Faculty-AddFaculty.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Faculty-EditFaculty.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Faculty-EditFaculty.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Faculty-FacultyList.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Faculty-FacultyList.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Faculty-RankHistory.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Faculty-RankHistory.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Help.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Help.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Home.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Home.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Notifications.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Notifications.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Profile.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Profile.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-RateUs.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-RateUs.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Report-GenerateReport-Preview.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Report-GenerateReport-Preview.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Report-GenerateReport.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Report-GenerateReport.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Report-SubmitReport-Preview.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Report-SubmitReport-Preview.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Report-SubmitReport.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Report-SubmitReport.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Research-AddResearch.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Research-AddResearch.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Research-ResearchDetails.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Research-ResearchDetails.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Research-ResearchEdit.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Research-ResearchEdit.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Research-ResearchList.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Research-ResearchList.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-ReturnedSubmissions-Details.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-ReturnedSubmissions-Details.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-ReturnedSubmissions-Edit.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-ReturnedSubmissions-Edit.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-ReturnedSubmissions-List.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-ReturnedSubmissions-List.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Submissions-SubmissionDetails.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Submissions-SubmissionDetails.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Submissions-SubmissionEdit.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Submissions-SubmissionEdit.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-Submissions-SubmissionsList.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-Submissions-SubmissionsList.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-ToEvaluate-List.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-ToEvaluate-List.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-ToReview-Details.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-ToReview-Details.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-ToReview-List.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-ToReview-List.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\ClusterCoordinator-accomplishmentlist.css",
+      "PackagePath": "staticwebassets\\css\\ClusterCoordinator-accomplishmentlist.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\CompletionReport.css",
+      "PackagePath": "staticwebassets\\css\\CompletionReport.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\CompletionReportDetails.css",
+      "PackagePath": "staticwebassets\\css\\CompletionReportDetails.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\DetailsInitialReview.css",
+      "PackagePath": "staticwebassets\\css\\DetailsInitialReview.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\EvaluationDetails.css",
+      "PackagePath": "staticwebassets\\css\\EvaluationDetails.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\EvaluatorView.css",
+      "PackagePath": "staticwebassets\\css\\EvaluatorView.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\Faculty-Home.css",
+      "PackagePath": "staticwebassets\\css\\Faculty-Home.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\InitialReview.css",
+      "PackagePath": "staticwebassets\\css\\InitialReview.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RMOSections.css",
+      "PackagePath": "staticwebassets\\css\\RMOSections.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RSCChief.css",
+      "PackagePath": "staticwebassets\\css\\RSCChief.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RSCChiefPages.css",
+      "PackagePath": "staticwebassets\\css\\RSCChiefPages.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RSCEvaluator.css",
+      "PackagePath": "staticwebassets\\css\\RSCEvaluator.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RSCEvaluatorPages.css",
+      "PackagePath": "staticwebassets\\css\\RSCEvaluatorPages.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RSCResearcher.css",
+      "PackagePath": "staticwebassets\\css\\RSCResearcher.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\RSCResearcherPages.css",
+      "PackagePath": "staticwebassets\\css\\RSCResearcherPages.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SelectApplication.css",
+      "PackagePath": "staticwebassets\\css\\SelectApplication.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SlateTheme.css",
+      "PackagePath": "staticwebassets\\css\\SlateTheme.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministrator-Accounts-AddUser.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministrator-Accounts-AddUser.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministrator-Accounts-EditUser.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministrator-Accounts-EditUser.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministrator-Accounts-Manage.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministrator-Accounts-Manage.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministrator-FAQs.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministrator-FAQs.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministrator-InformationDesk.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministrator-InformationDesk.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministrator-RoleManager.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministrator-RoleManager.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\SystemAdministratorUserRole.css",
+      "PackagePath": "staticwebassets\\css\\SystemAdministratorUserRole.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\TrackApplication.css",
+      "PackagePath": "staticwebassets\\css\\TrackApplication.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\application.css",
+      "PackagePath": "staticwebassets\\css\\application.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\applyethics.css",
+      "PackagePath": "staticwebassets\\css\\applyethics.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\downloadforms.css",
+      "PackagePath": "staticwebassets\\css\\downloadforms.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\faculty-accomplishment.css",
+      "PackagePath": "staticwebassets\\css\\faculty-accomplishment.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\faculty-applications.css",
+      "PackagePath": "staticwebassets\\css\\faculty-applications.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\landing.css",
+      "PackagePath": "staticwebassets\\css\\landing.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\site2.css",
+      "PackagePath": "staticwebassets\\css\\site2.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\student.css",
+      "PackagePath": "staticwebassets\\css\\student.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\css\\uploadform.css",
+      "PackagePath": "staticwebassets\\css\\uploadform.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\BG-Header.png",
+      "PackagePath": "staticwebassets\\images\\BG-Header.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\Group 9104.png",
+      "PackagePath": "staticwebassets\\images\\Group 9104.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\OrgStruct.png",
+      "PackagePath": "staticwebassets\\images\\OrgStruct.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\RMOLogo.png",
+      "PackagePath": "staticwebassets\\images\\RMOLogo.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\RMOSection-res.jpg",
+      "PackagePath": "staticwebassets\\images\\RMOSection-res.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\RMOSection-rlds.jpg",
+      "PackagePath": "staticwebassets\\images\\RMOSection-rlds.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\RMOSection-rss.jpg",
+      "PackagePath": "staticwebassets\\images\\RMOSection-rss.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\about.png",
+      "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\card1.jfif",
+      "PackagePath": "staticwebassets\\images\\card1.jfif"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\card2.jpg",
+      "PackagePath": "staticwebassets\\images\\card2.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\card3.jpg",
+      "PackagePath": "staticwebassets\\images\\card3.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\card4.jpg",
+      "PackagePath": "staticwebassets\\images\\card4.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\director.jpg",
+      "PackagePath": "staticwebassets\\images\\director.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\facebook-brands-solid.svg",
+      "PackagePath": "staticwebassets\\images\\facebook-brands-solid.svg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\linkedin.svg",
+      "PackagePath": "staticwebassets\\images\\linkedin.svg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\login-bg.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\logout.png",
+      "PackagePath": "staticwebassets\\images\\logout.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\ph-g.svg",
+      "PackagePath": "staticwebassets\\images\\ph-g.svg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\qna.png",
+      "PackagePath": "staticwebassets\\images\\qna.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\rate.png",
+      "PackagePath": "staticwebassets\\images\\rate.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\report.png",
+      "PackagePath": "staticwebassets\\images\\report.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\research-management-logo.png",
+      "PackagePath": "staticwebassets\\images\\research-management-logo.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\rmo page.jpg",
+      "PackagePath": "staticwebassets\\images\\rmo page.jpg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\rmo.png",
+      "PackagePath": "staticwebassets\\images\\rmo.png"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\x.svg",
+      "PackagePath": "staticwebassets\\images\\x.svg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\images\\youtube.svg",
+      "PackagePath": "staticwebassets\\images\\youtube.svg"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\About.js",
+      "PackagePath": "staticwebassets\\js\\About.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Citation.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Citation.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Copyright.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Copyright.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Faculty-AddFaculty.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Faculty-AddFaculty.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Faculty-EditFaculty.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Faculty-EditFaculty.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Faculty-RankHistory.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Faculty-RankHistory.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-RateUs.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-RateUs.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Report-GenerateReport.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Report-GenerateReport.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Report-SubmitReport.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Report-SubmitReport.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Research-AddResearch-year.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Research-AddResearch-year.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Research-AddResearch.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Research-AddResearch.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Research-ResearchEdit-year.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Research-ResearchEdit-year.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Research-ResearchEdit.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Research-ResearchEdit.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-ReturnedSubmissions-Edit-year.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-ReturnedSubmissions-Edit-year.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-ReturnedSubmissions-Edit.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-ReturnedSubmissions-Edit.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Submissions-SubmissionEdit-year.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Submissions-SubmissionEdit-year.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-Submissions-SubmissionEdit.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-Submissions-SubmissionEdit.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-acc-AddResearch-year.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-acc-AddResearch-year.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\ClusterCoordinator-acc-AddResearch.js",
+      "PackagePath": "staticwebassets\\js\\ClusterCoordinator-acc-AddResearch.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\Faculty-Home.js",
+      "PackagePath": "staticwebassets\\js\\Faculty-Home.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\RMOActivities.js",
+      "PackagePath": "staticwebassets\\js\\RMOActivities.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\SystemAdministrator-Accounts-AddUser.js",
+      "PackagePath": "staticwebassets\\js\\SystemAdministrator-Accounts-AddUser.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\SystemAdministrator-Accounts-EditUser.js",
+      "PackagePath": "staticwebassets\\js\\SystemAdministrator-Accounts-EditUser.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\SystemAdministratorUserRole.js",
+      "PackagePath": "staticwebassets\\js\\SystemAdministratorUserRole.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\faculty-accomplishment.js",
+      "PackagePath": "staticwebassets\\js\\faculty-accomplishment.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\faculty-accomplishments.js",
+      "PackagePath": "staticwebassets\\js\\faculty-accomplishments.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\faculty-applications.js",
+      "PackagePath": "staticwebassets\\js\\faculty-applications.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\landing.js",
+      "PackagePath": "staticwebassets\\js\\landing.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\sidebar.js",
+      "PackagePath": "staticwebassets\\js\\sidebar.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\ResearchManagementSystem\\ResearchManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ResearchManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ResearchManagementSystem.props",
+      "PackagePath": "build\\ResearchManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ResearchManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\ResearchManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ResearchManagementSystem.props",
+      "PackagePath": "buildTransitive\\ResearchManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

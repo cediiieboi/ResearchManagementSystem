@@ -1,0 +1,128 @@
+﻿@model IEnumerable<ResearchManagementSystem.Models.AddCitation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArticleTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeadResearcher)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CoLeadResearcher)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Memberone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Membertwo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Memberthree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OriginalArticlePublished)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewPublicationTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorsofNewArticle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewArticlePublished)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VolNoIssueNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearofPublication)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Indexing)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CitationProofFileName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddAccomplishment.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArticleTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LeadResearcher.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CoLeadResearcher.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Memberone.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Membertwo.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Memberthree.ProductionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OriginalArticlePublished)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewPublicationTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorsofNewArticle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewArticlePublished)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VolNoIssueNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pages)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YearofPublication)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Indexing)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.CitationProofFileName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CitationId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CitationId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CitationId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

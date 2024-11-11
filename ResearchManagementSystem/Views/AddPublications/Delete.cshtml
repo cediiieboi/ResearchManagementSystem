@@ -1,0 +1,99 @@
+﻿@model ResearchManagementSystem.Models.AddPublication
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>AddPublication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProductionId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AddAccomplishment.ProductionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ArticleTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ArticleTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PublicationDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PublicationDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.JournalPubTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.JournalPubTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DocumentType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DocumentType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.VolnoIssueNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.VolnoIssueNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IssnIsbnEssn)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IssnIsbnEssn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DOI)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DOI)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IndexJournal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IndexJournal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SuppDocs)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SuppDocs)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Link)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Link)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ManuscriptJournalData)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ManuscriptJournalData)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ManuscriptJournalFileName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ManuscriptJournalFileName)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="publicationId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
